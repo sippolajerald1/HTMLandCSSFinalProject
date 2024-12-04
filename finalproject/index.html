@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<title>Vehicles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="What are the differnt types of military vehicles?" />
+    <meta name="keywords" content="aircraftcarrier, apache, b-2, f-16, f-18, f-22, fleet" />
+    <link rel="stylesheet" href="css/GridViewScreen.css" media="all"/>
+    <link rel="stylesheet" href="css/GridViewPrint.css" media="print"/>
+    <script>
+      function changeColor(){
+      document.body.style.background = document.getElementById("backgroundColor").value;
+      document.body.style.color = document.getElementById("textColor").value;
+      }
+    
+    var name = prompt("What is your name?");
+    alert("Would you like to see military vehicles? " + name);
+      
+    </script>
+</head>
+
+<body> 
+
+ <article class="grid-container">
+<header class="title">
+    <h1>Military Vehicles</h1>
+</header>
+<section class="menu">
+  <nav>
+<h3>Individual Vehicles</h3>
+   <ul>
+      <li><a href="https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon">General Dynamics <br> F-16 Fighting Falcon</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/McDonnell_Douglas_F/A-18_Hornet">McDonnell Douglas <br>F/A-18 Hornet</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Northrop_B-2_Spirit">Northrop <br> B-2 Spirit</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Boeing_AH-64_Apache">Boeing <br> AH-64 Apache</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Aircraft_carrier">AirCraft Carrier</a></li>  
+      <li><a href="https://en.wikipedia.org/wiki/Lockheed_Martin_F-22_Raptor">Lockheed Martin <br> F-22 Raptor</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Naval_fleet">Fleet</a></li>
+    </ul>
+    <img src="Military2pictures/b-2.jpg" style="max-width:100%;" alt="B-2">
+    <h3>B-2</h3>
+    <img src="Military2pictures/aircraftcarrier.jpg" style="max-width:100%;" alt="Aircraft Carrier">
+    <h3>Aircraft Carrier<h3>
+</nav>
+</section>
+<section>
+   <div class="content">
+    <p>&nbsp;<h3>What is a fleet?
+    </h3> 
+ <h3>What is a naval fleet?
+ </h3>
+   <p> According to Wikipedia a "fleet is a large formation of 
+    warships-the largest formation in any navy-controlled by one 
+    leader. A fleet at sea is the direct equivalent of an
+    army on land. In modern times the squadrens are typically 
+    composed of surface warships, submarines, support ships, 
+    ship-based aircraft to conduct naval operations at sea."
+   </p>
+   </section>    
+   <section>
+  </div>
+  <aside class="right">
+    <img src="Military2pictures/fleet.jpg" style="max-width:100%;" alt="Fleet">
+    <h3>fleet</h3>
+    <img src="Military2pictures/f-22.jpg" style="max-width:100%;" alt="F-22">
+    <h3>F-22</h3>
+    <img src="Military2pictures/apache.jpg" style="max-width:100%;" alt="Apache">
+    <h3>Apache</h3>
+    <p><img src="Military2pictures/f-16.jpg" style="max-width:100%;" alt="F-16"/></p>
+    <h3>F-16</h3>
+    
+    
+  </aside>
+  
+</section>
+
+
+<footer class="contact">
+<p>&copy; Jerald Sippola  Contact: <a href="mailto:sippolj@gmail.nmc.edu"> sippolj@mail.nmc.edu</p>
+<div class="icon-bar">
+   <a href="https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon" ><i class="fa fa-fighter-jet" aria-hidden="true"></i></a>
+   <a href="https://en.wikipedia.org/wiki/McDonnell_Douglas_F/A-18_Hornet"><i class="fa fa-rocket" aria-hidden="true"></i></a>
+   <a href="https://en.wikipedia.org/wiki/Northrop_B-2_Spirit"><i class="fa fa-space-shuttle" aria-hidden="true"></i></a>
+   <a href="https://en.wikipedia.org/wiki/Naval_fleet"><i class="fa fa-ship" aria-hidden="true"></i></a>
+   <a href="https://en.wikipedia.org/wiki/Lockheed_Martin_F-22_Raptor"><i class="fa fa-bolt" aria-hidden="true"></i></a>
+
+</div>
+<p>Please select a color for the background:<input type="color" id="backgroundColor" >
+	Please select a color for your text:<input type="color" id="textColor" ></p>
+  To apply the changes, select the Change button:&nbsp; <button onclick="changeColor()">Change</button></p>
+	
+
+</footer>
+
+</article>
+    </body>
+</html>

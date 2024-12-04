@@ -1,0 +1,46 @@
+*{
+    width:100%;
+    font-size: 12pt;
+    font-family:'Times New Roman', Times, serif ;
+    background: white;
+    color:black;
+    text-align: left;
+    margin:0px;
+    padding:0px;
+    display:block;
+    top:0%;
+    height:auto;
+    opacity: 1;
+    text-shadow: none;
+    border:none;
+    font-weight: normal;
+    box-shadow: none;
+}
+
+img{
+    display:none;
+}
+nav{
+    display:none;
+}
+link{
+    display:none;
+}
+
+a:link{
+    color: black;
+    text-shadow: none;
+}
+
+header, footer, h1,h2,h3,p{
+    text-shadow: none;
+    color:black;
+    font-size:12pt;
+    text-align: left;
+}
+.icon-bar{
+    display:none;
+}
+script{
+    display:none;
+}
